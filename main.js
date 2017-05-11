@@ -37,6 +37,7 @@ http.createServer((req, res) => {
                     res.statusCode = 200
                     res.write(out + stdout)
                     res.end()
+                    console.log("[UPDATE] " + new Date(Date.now()) + " " + id)
                 }
             })
         }
