@@ -1,6 +1,6 @@
 {
     "series-watcher": {
-        "path": "~/Documents/code/series-watcher",
+        "path": "C:/Users/mathias/Documents/code/series-watcher",
         "update_command": "docker-compose up -d --build"
     }
 }
